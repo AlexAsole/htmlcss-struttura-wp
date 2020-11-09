@@ -1,0 +1,56 @@
+/* Reset */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Contenitore pagina */
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+/* header pagina */
+header{
+  height: 40px;
+  background-color: #ff0;
+}
+/* Clearfix */
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Float sinistra */
+.float{
+  float: left;
+}
+/* primo box */
+.box1{
+  width: 20%;
+  height: 250px;
+  background-color: #0ff;
+}
+/* secondo box */
+.box2{
+  width: 60%;
+  height: 300px;
+  background-color: #f0f;
+}
+/* terzo box contente due in-box */
+.box3{
+  width: 20%;
+  height: 250px;
+}
+/* in-box */
+.in-box{
+  height: 50%;
+  background-color: #baf;
+}
+/* specifica seconda in-box  */
+.box3 > .in-box:last-child{
+  background-color: #be5710;
+}
+footer{
+height: 40px;
+background-color: #f00;
+}
