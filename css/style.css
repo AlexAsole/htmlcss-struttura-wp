@@ -14,6 +14,10 @@ header{
   height: 40px;
   background-color: #ff0;
 }
+/* contenitore box */
+.folder{
+  padding: 10px 0 ;
+}
 /* Clearfix */
 .clearfix::after{
   content: "";
@@ -26,30 +30,37 @@ header{
 }
 /* primo box */
 .box1{
-  width: 20%;
+  width: calc(20% - 20px);
   height: 250px;
   background-color: #0ff;
+  margin-right: 10px;
 }
 /* secondo box */
 .box2{
   width: 60%;
-  height: 300px;
+  height: 400px;
   background-color: #f0f;
+  padding-left: 10px;
 }
 /* terzo box contente due in-box */
 .box3{
   width: 20%;
-  height: 250px;
+  height: 400px;
+  margin-left: 10px;
 }
 /* in-box */
 .in-box{
-  height: 50%;
+  height: calc(200px - 5px) ;
   background-color: #baf;
+  margin-bottom: 5px;
 }
-/* specifica seconda in-box  */
-.box3 > .in-box:last-child{
+/* in-box 2  */
+.in-box2{
+  height: calc(200px - 5px);
   background-color: #be5710;
+  margin-bottom: 5px;
 }
+/* footer pagina */
 footer{
 height: 40px;
 background-color: #f00;
