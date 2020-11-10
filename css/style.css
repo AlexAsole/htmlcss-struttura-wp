@@ -16,7 +16,7 @@ header{
 }
 /* contenitore box */
 .folder{
-  padding: 10px 0 ;
+  margin:  10px 0  ;
 }
 /* Clearfix */
 .clearfix::after{
@@ -40,7 +40,6 @@ header{
   width: 60%;
   height: 400px;
   background-color: #f0f;
-  padding-left: 10px;
 }
 /* terzo box contente due in-box */
 .box3{
